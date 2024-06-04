@@ -26,7 +26,7 @@ To use the script, activate the Poetry shell and run the script with root privil
 
 ```sh
 poetry shell
-sudo python fprintclear.py
+sudo $(which python) fprintclear.py
 ```
 
 ### Options
@@ -36,7 +36,7 @@ sudo python fprintclear.py
 Example:
 
 ```sh
-sudo python fprintclear.py -d
+sudo $(which python) fprintclear.py -d
 ```
 
 ## Script Explanation
