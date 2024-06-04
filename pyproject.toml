@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "fprintclear"
 version = "0.1.0"
-description = ""
+description = "List or delete enrolled fingerprints on fingerprint readers with fprint"
 authors = ["Carmine Paolino <carmine@paolino.me>"]
 readme = "README.md"
 
