@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fprintclear"
+version = "0.1.0"
+description = ""
+authors = ["Carmine Paolino <carmine@paolino.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygobject = "^3.48.2"
+typer = "^0.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
